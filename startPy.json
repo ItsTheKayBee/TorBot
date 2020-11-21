@@ -1,0 +1,9 @@
+{
+    "name": "com.myextensions.torbot",
+    "description": "Start torrent download",
+    "path": "startpy.bat",
+    "type": "stdio",
+    "allowed_origins": [
+        "chrome-extension://pkhiggbhbcbgdgklmoahojhonlpkinhc/"
+    ]
+}

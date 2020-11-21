@@ -1,0 +1,24 @@
+{
+  "name": "TorBot",
+  "version": "0.1",
+  "description": "A yify torrent movie downloader",
+  "manifest_version": 2,
+  "background": {
+    "scripts": [
+      "eventPage.js"
+    ],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "128": "logo.png"
+  },
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "notifications",
+    "nativeMessaging"
+  ]
+}
