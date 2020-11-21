@@ -1,0 +1,50 @@
+html,
+body {
+    height: 300px;
+    width: 300px;
+    font-family: "Montserrat";
+    margin: 0;
+    background-color: #0336ff;
+    color: white;
+}
+
+#download {
+    border-radius: 50px;
+    background-color: #ffde03;
+    color: black;
+    width: 200px;
+    height: 40px;
+    border: none;
+    display: block;
+    margin: 20px auto;
+    outline: none;
+}
+
+#heading {
+    color: #ffde03;
+    padding: 0 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+hr {
+    border: 1px solid #ffde03;
+}
+
+#content {
+    padding: 0 20px 20px;
+    font-size: 14px;
+}
+
+#download:hover {
+    cursor: pointer;
+}
+
+input {
+    width: 240px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-family: "Montserrat";
+}
